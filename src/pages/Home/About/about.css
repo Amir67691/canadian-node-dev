@@ -1,0 +1,144 @@
+.about-container{
+    min-height: 978px;
+    width: 100%;
+    padding: 0px 100px;
+}
+h1,p{
+    font-family: Questrial, sans-serif;
+    font-style: normal;
+}
+.about-heading{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+.about-heading h1{
+font-weight: 700;
+font-size: 96px;
+line-height: 99px;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+}
+.about-heading img{
+    width: 70px;
+    height: 70px;
+    margin-left:40px
+}
+.about-intro p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-align: justify;color: #FFFFFF;
+}
+.about-features ul{
+    padding: 0px;
+  list-style-type:none;
+}
+.list-heading{
+   color: white;
+   font-size: 24px;
+   margin: 40px 0px;
+   font-weight: 400;
+}
+.about-features ul li{
+    padding-left: 40px;
+    margin-bottom: 25px;
+}
+
+.about-features ul li::before {
+    content: "\2022";
+    color: #FA741C;
+    font-weight: bold;
+    display: inline-block; 
+    font-size: 30px;
+    margin-left:-1em;
+    position: absolute;
+    line-height:20px;
+  }
+.about-features ul li h4{
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+}
+.about-features ul li p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;color: #FFFFFF;
+    opacity: 0.8;
+}
+
+@media screen and (max-width:992px) {
+    .about-heading h1{
+        font-size: 65px;
+        margin-top: 0px;
+    }
+    .about-heading img{
+      width: 50px;
+      height: 50px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .about-container{
+        height: auto;
+        padding: 0px 50px 50px;
+    }
+    .about-heading{
+        margin: 50px 0px;
+    }
+    .about-heading h1{
+        font-size: 35px;
+        margin-top: 0px;
+    }
+    .about-heading img{
+        width: 30px;
+        height: 30px;
+        margin-left: 20px;
+    }
+    .about-intro p{
+        font-size: 20px;
+    }
+    .list-heading{
+        font-size: 20px;
+    }
+    ul li::before{
+        margin-top: -3px;
+    }
+    .about-features ul li p,.about-features ul li h4{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .about-container{
+        height: auto;
+        padding: 0px 50px 50px;
+    }
+    .about-heading{
+        margin: 50px 0px;
+    }
+    .about-heading h1{
+        font-size: 32px;
+        margin-top: 0px;
+    }
+    .about-heading img{
+        width: 28px;
+        height: 28px;
+        margin-left: 20px;
+    }
+    .about-intro p,.list-heading{
+        font-size: 18px;
+    }
+  
+    ul li::before{
+        margin-top: -3px;
+    }
+    .about-features ul li p,.about-features ul li h4{
+        font-size: 18px;
+    }
+}

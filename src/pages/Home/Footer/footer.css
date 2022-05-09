@@ -1,0 +1,25 @@
+.footer-container{
+    height: 170px;
+    background-color: white;
+    background-image: url('./../../../assests/images/tiles.png');
+    background-position-x:right ;
+    background-position-y: -180px;
+    background-repeat: no-repeat;
+    background-size: 55%;   
+}
+ul{
+    margin-top: 20px;
+    list-style: none;
+}
+ul li{
+    font-family: Questrial, sans-serif;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+.address p{
+    font-family: Questrial, sans-serif;
+    font-size: 14px;
+    margin: 0px 30px 0px;
+    padding: 0px;
+    font-weight: bold;
+}
